@@ -9,4 +9,17 @@
 # This challenge is trivial to do if you map it to a string to iterate over the input, operate, and then cast it back.
 #  Instead, try doing it without casting it as a string at any point, keep it numeric (int, float if you need it) only.
 
-number = int(input("Enter a number"))
+def numberThing(y):
+    newNum = []
+    for x in y:
+        newNum.append(str(int(x) + 1))
+    num = "".join(newNum)
+    return num
+    
+
+if __name__ == "__main__":
+    num = (input("Enter a number"))
+    print(numberThing(num))
+    
+    
+
