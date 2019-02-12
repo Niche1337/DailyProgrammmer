@@ -16,10 +16,6 @@ def numberThing(y):
     num = "".join(newNum)
     return num
     
-
 if __name__ == "__main__":
     num = (input("Enter a number"))
     print(numberThing(num))
-    
-    
-
